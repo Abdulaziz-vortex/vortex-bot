@@ -34,8 +34,3 @@ if ($text === '/start') {
 }
 
 $telegram->sendMessage($content);
-
-echo "<pre>";
-print_r($telegram);
-echo "<pre>";
-die();
